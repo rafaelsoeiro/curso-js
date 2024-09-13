@@ -1,0 +1,10 @@
+modules = ["nodejs-20", "web"]
+
+# Configuração para executar o arquivo atualmente visualizado
+run = "node 08_async-await/promisses.js"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "node 08_async-await/promisses.js"]
