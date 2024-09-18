@@ -1,7 +1,7 @@
 modules = ["nodejs-20", "web"]
 
 # Configuração para executar o arquivo atualmente visualizado
-run = "node 08_async-await/promisses.js"
+run = "node"
 
 [nix]
 channel = "stable-24_05"
